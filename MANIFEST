@@ -1,0 +1,17 @@
+Changes
+Makefile.PL
+MANIFEST
+META.yml
+README
+lib/Math/Random/MT/Auto.pm
+ppport.h
+typemap
+mt19937ar.h
+mt19937ar.c
+MRMA.xs
+t/mt19937ar.t
+t/dev_random.t
+t/dev_urandom.t
+t/random_org.t
+t/hotbits.t
+samples/random
