@@ -1,11 +1,15 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Math-Random-MT-Auto
-version:      4.08.00
+version:      4.09.00
 version_from: lib/Math/Random/MT/Auto.pm
 installdirs:  site
 requires:
-    Scalar::Util:                  1.16
+    Attribute::Handlers:           0
+    Carp:                          0
+    Dynaloader:                    0
+    Scalar::Util:                  0
+    Test::More:                    0
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.30
