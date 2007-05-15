@@ -1,13 +1,12 @@
 --- #YAML:1.0
 name:                Math-Random-MT-Auto
-version:             5.06
+version:             6.01
 abstract:            Auto-seeded Mersenne Twister PRNGs
 license:             unrestricted
 generated_by:        ExtUtils::MakeMaker version 6.32_01
 distribution_type:   module
 requires:     
     Carp:                          0
-    Config:                        0
     Data::Dumper:                  0
     Exception::Class:              1.22
     Fcntl:                         0
