@@ -1,9 +1,11 @@
 --- #YAML:1.0
 name:                Math-Random-MT-Auto
-version:             6.09
+version:             6.11
 abstract:            Auto-seeded Mersenne Twister PRNGs
 license:             unrestricted
-generated_by:        ExtUtils::MakeMaker version 6.36_01
+author:              
+    - Jerry D. Hedden <jdhedden AT cpan DOT org>
+generated_by:        ExtUtils::MakeMaker version 6.43_01
 distribution_type:   module
 requires:     
     Carp:                          0
@@ -17,7 +19,5 @@ requires:
     warnings:                      0
     XSLoader:                      0
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
-author:
-    - Jerry D. Hedden <jdhedden AT cpan DOT org>
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
