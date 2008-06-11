@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Math-Random-MT-Auto
-version:             6.13
+version:             6.14
 abstract:            Auto-seeded Mersenne Twister PRNGs
 license:             unrestricted
 author:              
