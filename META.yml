@@ -1,35 +1,35 @@
---- #YAML:1.0
-name:               Math-Random-MT-Auto
-version:            6.16
-abstract:           Auto-seeded Mersenne Twister PRNGs
+---
+abstract: 'Auto-seeded Mersenne Twister PRNGs'
 author:
-    - Jerry D. Hedden <jdhedden AT cpan DOT org>
-license:            unrestricted
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Jerry D. Hedden <jdhedden AT cpan DOT org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Carp:               0
-    Config:             0
-    Data::Dumper:       0
-    Exception::Class:   1.22
-    Fcntl:              0
-    Object::InsideOut:  2.06
-    Scalar::Util:       1.18
-    strict:             0
-    Test::More:         0
-    warnings:           0
-    XSLoader:           0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.5601
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.113640'
+license: unrestricted
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Math-Random-MT-Auto
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 0
+  Config: 0
+  Data::Dumper: 0
+  Exception::Class: 1.32
+  Fcntl: 0
+  Object::InsideOut: 3.85
+  Scalar::Util: 1.23
+  Test::More: 0
+  XSLoader: 0
+  strict: 0
+  warnings: 0
+version: 6.17
 recommends:
     LWP::UserAgent: 0
     Win32::API: 0
