@@ -37,7 +37,7 @@
             "Data::Dumper" : 0,
             "Exception::Class" : "1.32",
             "Fcntl" : 0,
-            "Object::InsideOut" : "3.85",
+            "Object::InsideOut" : "3.88",
             "Scalar::Util" : "1.23",
             "Test::More" : 0,
             "XSLoader" : 0,
@@ -47,5 +47,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "6.17"
+   "version" : "6.18"
 }
