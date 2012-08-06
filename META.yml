@@ -29,7 +29,7 @@ requires:
   XSLoader: 0
   strict: 0
   warnings: 0
-version: 6.19
+version: 6.21
 recommends:
   LWP::UserAgent: 0
   Win32::API: 0
